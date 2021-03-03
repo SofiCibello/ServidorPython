@@ -73,7 +73,7 @@ class Servidor():
     # un while infinito que estará recorriendo la lista de clientes
     # para saber cuando recibe un mensaje.
     def procesarConexion(self):
-        usuarios = ['Sofi,79906', 'Lara Parrucci,77749', 'Mario Groppo,1234']
+        usuarios = ['Sofía Cibello,79906', 'Lara Parrucci,77749', 'Mario Groppo,1234']
         while True:
             if len(self.clientes) > 0:
                 clientesRemover = []
